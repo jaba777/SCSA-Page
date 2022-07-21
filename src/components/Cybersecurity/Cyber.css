@@ -1,0 +1,45 @@
+.Cyber{
+    margin: 25rem auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1250px;
+    align-items: center;
+}
+.Cyber-specific{
+    width: 60%;
+    max-width: 95%;
+}
+.Cyber-specific h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.Cyber-specific p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.Cyber-specific .registr a{
+   
+    text-decoration: none;
+    background-color: #7b0493;
+    color: #fff;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Cyber-specific h2{
+    margin-top: 2rem;
+    font-weight: 200;
+    font-size: 12px;
+}
+.cyber-text{
+    width: 40%;
+    max-width: 90%;
+}
+.cyber-text h2{
+    color: #6ec1e4;
+    font-size: 20px;
+    font-weight: 600;
+}

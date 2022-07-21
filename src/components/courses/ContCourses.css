@@ -1,0 +1,57 @@
+.input-cont{
+    width: 60%;
+    max-width: 95%;
+    margin: 1rem auto;
+    background-color: rgb(150, 102, 196);
+    padding: 1.5rem 5rem;
+    border: 2px solid #000;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.inputs input:focus,
+.inputs select{
+    outline: none;
+}
+.inputs div{
+    margin-top: 1rem;
+}
+.inputs div label {
+    color: #fff;
+    font-size: 20px;
+}
+.inputs div input,
+.inputs div select{
+    width: 200px;
+    padding: 0.2rem 0.4rem;
+    margin-top: 2rem;
+}
+.btn-div{
+    text-align: right;
+    margin-top: 2rem;
+}
+.btn-div .forms-btn{
+    padding: 0.8rem 2rem;
+    background-color: rgb(101, 41, 158);
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+.course-btn{
+    padding: 1.2rem 3rem;
+    background-color: rgb(101, 41, 158);
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+.container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
