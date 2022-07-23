@@ -11,16 +11,16 @@ const Navbar = () => {
         <p>კიბერ უსაფრთხოების სპეციალიზაცია წარმოადგენს დღეისთვის აქტუალური საგნების სრულყოფილ სასწავლო პროგრამას. სპეციალიზაციის გავლის შემდეგ, მონაწილეებს  ექნებათ შესაძლებლობა და ყველა საჭირო უნარი იმისათვის, რომ პროფესიონალურ დონეზე გააგრძელონ მუშაობა ისეთი მოთხოვნადი მიმართულებით, როგორიც არის კიბერ უსაფრთხოება და კომპიუტერული მეცნიერება. სრული პროგრამის ხანგრძლივობა შეადგენს 12 თვეს.</p>
         <h2>რას ისწავლით</h2>
         <ul className='learn-menu'>
-            <li><span><i class="fas fa-check"></i></span> კიბერ უსაფრთხოების ძირითად ასპექტებს</li>
-            <li><span><i class="fas fa-check"></i></span> ქსელური უსაფრთხოების ასპექტებს</li>
-            <li><span><i class="fas fa-check"></i></span> აპარატულ უსაფრთხოებას</li>
-            <li><span><i class="fas fa-check"></i></span> კრიპტოგრაფიის ასპექტებს</li>
-            <li><span><i class="fas fa-check"></i></span> დესკტოპ და ვებ აპლიკაციების შექმნას</li>
-            <li><span><i class="fas fa-check"></i></span> ვებ უსაფრთხოებას</li>
-            <li><span><i class="fas fa-check"></i></span> პროგრამული უზრუნველყოფის უსაფრთხოებას</li>
-            <li><span><i class="fas fa-check"></i></span> ქსელური ინფრასტრუქტურის პრინციპებს</li>
-            <li><span><i class="fas fa-check"></i></span> ქსელური უსაფრთხოების პრინციპებს</li>
-            <li><span><i class="fas fa-check"></i></span> შეღწევადობის ტესტირებას</li>
+            <li><span><i className="fas fa-check"></i></span> კიბერ უსაფრთხოების ძირითად ასპექტებს</li>
+            <li><span><i className="fas fa-check"></i></span> ქსელური უსაფრთხოების ასპექტებს</li>
+            <li><span><i className="fas fa-check"></i></span> აპარატულ უსაფრთხოებას</li>
+            <li><span><i className="fas fa-check"></i></span> კრიპტოგრაფიის ასპექტებს</li>
+            <li><span><i className="fas fa-check"></i></span> დესკტოპ და ვებ აპლიკაციების შექმნას</li>
+            <li><span><i className="fas fa-check"></i></span> ვებ უსაფრთხოებას</li>
+            <li><span><i className="fas fa-check"></i></span> პროგრამული უზრუნველყოფის უსაფრთხოებას</li>
+            <li><span><i className="fas fa-check"></i></span> ქსელური ინფრასტრუქტურის პრინციპებს</li>
+            <li><span><i className="fas fa-check"></i></span> ქსელური უსაფრთხოების პრინციპებს</li>
+            <li><span><i className="fas fa-check"></i></span> შეღწევადობის ტესტირებას</li>
         </ul>
       </div>
 

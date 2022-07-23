@@ -32,3 +32,26 @@
     width: 100%;
     height: auto;
 }
+
+@media(max-width: 768px){
+    .specific-container{
+        flex-direction: column;
+    }
+    .specific-box1{
+        width: 95%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .specific-box1 h1{
+        font-size: 30px;
+    }
+    .specific-img{
+        width: 400px;
+        max-width: 80%;
+    }
+    .specific-img img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}

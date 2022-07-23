@@ -1,11 +1,13 @@
 import React,{useState} from 'react'
 
-const CoursesInput = () => {
+const CoursesInput = (props) => {
     const [userInput, setUserInput]=useState({
         name: '',
         lector: 'მაქსიმ იავიჩი',
         desc: ''
     });
+    
+    
     
     const nameChangeHandler=(event)=>{
         setUserInput({
@@ -30,13 +32,16 @@ const CoursesInput = () => {
 
     const onSubmitHandler=(event)=>{
         event.preventDefault();
-
+        
         const objfit={
+            id: Math.random(),
             names: userInput.name,
             lector: userInput.lector,
             describe: userInput.desc
         }
-        console.log(objfit);
+        
+        props.addSelect(objfit);
+        
         setUserInput({
             name: '',
             lector: '',
@@ -54,7 +59,7 @@ const CoursesInput = () => {
         </div>
         
         <div>
-        <label for="lectors">Lectors: </label>
+        <label htmlFor="lectors">Lectors: </label>
           <select name="lectors" id="lectors" onChange={lectorsChangeHandler}>
             <option value="მაქსიმ იავიჩი">მაქსიმ იავიჩი</option>
             <option value="გიორგი იაშვილი">გიორგი იაშვილი</option>
@@ -64,9 +69,9 @@ const CoursesInput = () => {
           </select>
         </div>
 
-        <div>
+        <div className='textarea'>
         <label htmlFor="Description">Description: </label>
-        <input value={userInput.desc} onChange={descChangeHandler} type="text" id='Description'  />
+        <textarea value={userInput.desc} onChange={descChangeHandler} type="text" id='Description'  />
         </div>
 
     </div>

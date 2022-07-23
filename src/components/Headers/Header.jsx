@@ -13,7 +13,7 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
       <div className={Headerstyle.menu}>
-        <ul className={!menuIcon && Headerstyle.hidden}>
+        <ul className={!menuIcon ? Headerstyle.hidden : ''}>
             <li>სპეციალიზაცია</li>
             <li>როგორ მუშაობს</li>
             <li>სასწავლო კურსები</li>

@@ -8,7 +8,13 @@ const ContCourses = () => {
   const courseChangeHandler=()=>{
     setCourse(false);
   }
+    const [express, setExpress]=useState([]);
 
+  const addExpenseHandler=(item)=>{
+    console.log(express);
+    setExpress([...express,item]);
+    
+  }
   
 
   return (
@@ -19,12 +25,23 @@ const ContCourses = () => {
         }
         
         {
-            !course && <CoursesInput />
+            !course && <CoursesInput addSelect={addExpenseHandler} />
         }
         
       </div>
+      <div className='Course-container'>
+        <h1>სპეციალიზაციის სასწავლო კურსები</h1>
+        {
+            express.map((item, ind)=> {
+                return(
+                       <Coursetitle name={item.names} lector={item.lector} desc={item.describe} number={ind} key={item.id} />
+                )
+            }
+          )
+        }
       
-      <Coursetitle />
+      </div>
+      
     </div>
   )
 }

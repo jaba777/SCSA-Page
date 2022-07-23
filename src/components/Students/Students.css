@@ -1,0 +1,54 @@
+.Students-Container{
+    max-width: 1250px;
+    width: 95%;
+    margin: 16rem auto 3rem auto;
+}
+.Students-Container h1{
+    font-size: 45px;
+}
+.students{
+    margin: 4rem auto 8rem auto;
+    width: 90%;
+    max-width: 100%;
+}
+.student-cont{
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+}
+.student-box .image{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.student-box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.student-box{
+    display: flex;
+    align-items: center;
+}
+.student-text{
+    margin-top: 3rem;
+    font-style: italic;
+    color: rgb(82, 83, 83);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media(max-width: 768px){
+    .Students-Container{
+        width: 100%;
+    }
+    .Students-Container h1{
+        font-size: 20px;
+    }
+    .students{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+}

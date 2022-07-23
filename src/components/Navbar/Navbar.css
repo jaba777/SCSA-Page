@@ -40,7 +40,8 @@
 }
 .navbar-image img{
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    height: auto;
 }
 .navbar-box-container{
     width: 40%;
@@ -59,4 +60,48 @@
 .box-info p{
   color: rgb(154, 158, 158);
   line-height: 1.5rem;
+}
+
+@media(max-width: 768px){
+    .Navbar{
+        width: 95%;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-box1{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .navbar-box1 h1{
+        font-size: 27px;
+    }
+    .navbar-box1 p{
+        font-size: 16px;
+    }
+    .navbar-box1 h2{
+        text-align: left;
+    }
+    .learn-menu{
+        text-align: left;
+    }
+    .navbar-box-container{
+        width: 100%;
+    }
+    .navbar-box{
+        display: block;
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .navbar-image{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .box-info{
+        text-align: center;
+    }
+   
 }

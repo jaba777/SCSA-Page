@@ -92,3 +92,27 @@
         color: #fff;
     }
 }
+
+@media(max-width: 768px){
+    .header{
+        padding: 1rem 0;
+    }
+    .registr{
+        display: none;
+    }
+    .img{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .img img{
+        object-fit: cover;
+    }
+    .header .menuicons{
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 5.5rem;
+        bottom: 0;
+        
+    }
+}
