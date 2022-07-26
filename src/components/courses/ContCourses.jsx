@@ -8,10 +8,17 @@ const ContCourses = () => {
   const courseChangeHandler=()=>{
     setCourse(false);
   }
-    const [express, setExpress]=useState([]);
+    const [express, setExpress]=useState([
+      {
+            id: Math.random(),
+            names: 'პროგრამირება Python - ზე',
+            lector: 'მაქსიმ იავიჩი',
+            describe: 'სასწავლო კურსი წარმოადგენს დაპროგრამების მიმართულებით თანამედროვე სტანდარტების თეორიული და პრაქტიკული გამოყენების ათვისების საშუალებას. მასში შეისწავლება თანამედროვე, დინამიური და მულტიპარადიგმული ენა „პითონი“. რომელიც თავის თავში მოიცავს ობიექტზე ორინეტირებულ , პროცედურულ, ფუნქციონალურ და იმპერატიულ პროგრამირებას.'
+      },
+    ]);
 
   const addExpenseHandler=(item)=>{
-    console.log(express);
+    
     setExpress([...express,item]);
     
   }
